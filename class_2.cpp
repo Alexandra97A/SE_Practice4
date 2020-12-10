@@ -6,12 +6,16 @@ using namespace std;
 
 class MyClass2 {
   private:
-    int var1;
-    int var2;
-
+   int num1;
+   int num2;
   public:
     MyClass2 (int a, int b) {
-        int sum = a + b;
-        cout<<"the sum of "<<a<<" and "<<b<<" is: "<<sum<<endl;
+      num1 = a;
+      num2 = b;
+
+    }
+    int sum_integers (){
+        int sum = num1 + num2;
+        cout<<"the sum of "<<num1<<" and "<<num2<<" is: "<<sum<<endl;
     }
 };
