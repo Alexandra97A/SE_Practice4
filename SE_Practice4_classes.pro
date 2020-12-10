@@ -6,8 +6,7 @@ CONFIG -= qt
 SOURCES += \
         class_1.cpp \
         class_2.cpp \
-        ex1.cpp \
+        class_3.cpp \
         main.cpp
 
-HEADERS += \
-    ex1.h
+HEADERS +=
